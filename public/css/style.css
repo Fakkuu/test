@@ -1,8 +1,12 @@
 /* ------------------
 		HOME
 ------------------ */
-
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
 section#home #b {
+	background-color: #0a0a0a;
 	-webkit-animation-delay: 0.5s;
 	animation-delay: 0.5s;
 	-webkit-animation-duration: 1.5s;
@@ -15,7 +19,7 @@ section#home #b {
 	animation-timing-function: cubic-bezier(0, 0.71, 0.29, 1);
 	border-radius: 24px;
 	display: inline-block;
-	height: 240px;
+	height: 300px;
 	margin-bottom: 40px;
 	position: relative;
 	vertical-align: top;
@@ -26,8 +30,8 @@ section#home #b {
 section#home div#dropzone {
 	border: 1px solid #dbdbdb;
 	background-color: rgba(0, 0, 0, 0);
-    border-color: #ff3860;
-    color: #ff3860;
+    border-color: #6095da;
+    color: #6095da;
     display: none;
     width: 100%;
     border-radius: 3px;
@@ -45,10 +49,10 @@ section#home div#dropzone {
 }
 
 section#home div#uploads, section#home p#tokenContainer, section#home a#panel { display: none; }
-section#home div#dropzone:hover { background-color: #ff3860; border-color: #ff3860; color: #fff; }
+section#home div#dropzone:hover { background-color: #6095da; border-color: #6095da; color: #fff; }
 section#home h3#maxFileSize { font-size: 14px; }
 section#home h3#links span { padding-left: 5px; padding-right: 5px; }
-section#home img.logo { height: 200px; margin-top: 20px; }
+/* section#home img.logo { height: 200px; margin-top: 20px; } */
 section#home .dz-preview .dz-details { display: flex; }
 section#home .dz-preview .dz-details .dz-size, section#home .dz-preview .dz-details .dz-filename { flex: 1; }
 section#home .dz-preview img, section#home .dz-preview .dz-success-mark, section#home .dz-preview .dz-error-mark { display: none; }

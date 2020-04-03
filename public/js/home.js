@@ -173,7 +173,7 @@ upload.prepareDropzone = function(){
 		
 	});
 
-	upload.prepareShareX();
+	//upload.prepareShareX();
 };
 
 upload.prepareShareX = function(){

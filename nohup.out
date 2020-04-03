@@ -1,0 +1,14 @@
+module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '/var/www/fakku.ee/lolisafe/server.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:188:16)
+    at bootstrap_node.js:609:3
+Knex:warning - Use async .hasTable to check if table exists and then use plain .createTable. Since .createTableIfNotExists actually just generates plain "CREATE TABLE IF NOT EXIST..." query it will not work correctly if there are any alter table queries generated for columns afterwards. To not break old migrations this function is left untouched for now, but it should not be used when writing new code and it is removed from documentation.
+Knex:warning - Use async .hasTable to check if table exists and then use plain .createTable. Since .createTableIfNotExists actually just generates plain "CREATE TABLE IF NOT EXIST..." query it will not work correctly if there are any alter table queries generated for columns afterwards. To not break old migrations this function is left untouched for now, but it should not be used when writing new code and it is removed from documentation.
+Knex:warning - Use async .hasTable to check if table exists and then use plain .createTable. Since .createTableIfNotExists actually just generates plain "CREATE TABLE IF NOT EXIST..." query it will not work correctly if there are any alter table queries generated for columns afterwards. To not break old migrations this function is left untouched for now, but it should not be used when writing new code and it is removed from documentation.
+lolisafe started on port 9999
